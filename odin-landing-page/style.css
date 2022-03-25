@@ -1,0 +1,181 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-padding {
+    padding: 0px 150px;
+}
+
+.hero {
+    background-color: #1F2937;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    height: 150px;
+}
+
+.right-links, .secondarytext {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right-links li a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 60px;;
+}
+
+.hero-content-container {
+    flex: 1;
+}
+
+.maintext {
+    margin: 0;
+}
+
+.hero-content-container-img {
+    flex: 1;
+    width: 50%;
+    height: 300px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+.header-content-button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.information {
+    text-align: center;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.information-facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 50px 0px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    font-size: 18px;
+    color: #1F2937 ;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 450px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-name {
+    font-weight: bold;
+    float: right;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+
+.box {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    color:#E5E7EB;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.call-to-action-title {
+    font-weight: bold;
+}
+
+.call-to-action-content {
+    font-size: 15px;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
